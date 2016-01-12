@@ -1,0 +1,18 @@
+{
+  "name": "API-TEST",
+  "version": "0.0.0",
+  "private": true,
+  "description": "API Test",
+  "author": "Patrick Conreaux <pgconreaux@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint .",
+    "test": "node_modules/.bin/mocha --timeout 0 --reporter spec"
+  },
+  "dependencies": {
+    "chakram": "^1.2.1",
+    "eslint": "^0.21.2",
+    "mocha": "^2.3.4"
+  }
+
+}
